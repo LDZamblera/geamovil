@@ -155,7 +155,7 @@ const Links = () => {
       </Routes>
 
       <div className="atencion-cliente-container">
-        <h2>Atencion al cliente GEA</h2>
+        <h2>Atención al cliente GEA</h2>
         <div className="contact-info">
           <div className="contact-item">
             <span className="contact-icon">
