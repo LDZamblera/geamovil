@@ -95,7 +95,7 @@ h1, h2, h3 {
 
 .atencion-cliente-container {
   background-color: #085380;
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: 0 10px 20px rgba(255, 255, 255, 0.836), 0 6px 6px rgba(255, 253, 253, 0.822);
   color: #fff;
   padding: 20px;
@@ -109,7 +109,7 @@ h1, h2, h3 {
   padding: 40px;
   transition: transform 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
   font-weight: bold; /* 'fontWeight' en lugar de 'fontWeight' */
-  border: 1 px solid;
+  border: 2 px solid white;
 }
 
 
