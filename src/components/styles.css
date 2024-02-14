@@ -36,7 +36,7 @@ h1, h2 {
     text-align: center;
     text-decoration: none;
     transition: transform 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
-    height: 65px;
+    height: 75px;
     border-radius: 15px;
 }
 
@@ -82,6 +82,7 @@ h1, h2 {
     width: 100%;
     box-shadow: 0 5px 8px rgba(219, 219, 219, 0.2); /* Ajusta estos valores según tus preferencias */
     transition: box-shadow 0.3s ease-in-out;
+    
   }
   
   .carousel-image:hover {
@@ -138,4 +139,17 @@ h1, h2 {
 .contact-icon {
   font-size: 1.5rem;
   margin-right: 10px;
+}
+
+
+@media (max-width: 767px) {
+  .logo-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .carousel-image {
+    width: 100%;
+    height: auto;
+  }
 }
