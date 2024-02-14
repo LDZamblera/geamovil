@@ -114,6 +114,7 @@ const Links = () => {
           right: 0,
           width: "215px",
           zIndex: 1,
+          marginBottom: "10px",
         }}
       >
         <Slider {...carouselSettings} className="carusel">
