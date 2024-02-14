@@ -60,7 +60,7 @@ h1, h2, h3 {
 
 .logoImage{
     width: 100%;
-    border: 2.5px solid white;
+    border: 3px solid white;
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.747);
     padding: 5px;
     height: auto;
@@ -71,7 +71,7 @@ h1, h2, h3 {
     transform: scale(1.1);
     border: #FFFFFF 2px solid;
     /* Cambia la opacidad al hacer hover */
-    filter: saturate(115%);
+    filter: saturate(118%);
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.993);
 }
 
