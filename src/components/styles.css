@@ -109,6 +109,7 @@ h1, h2, h3 {
   padding: 40px;
   transition: transform 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
   font-weight: bold; /* 'fontWeight' en lugar de 'fontWeight' */
+  border: 1 px solid;
 }
 
 
