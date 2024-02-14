@@ -16,7 +16,7 @@ h1, h2 {
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 900px;
     height: auto;
     border-radius: 6px solid;
     padding: 10px;
@@ -142,22 +142,12 @@ h1, h2 {
 }
 
 
-@media (max-width: 767px) {
-  .logo-image {
-    width: 100%;
-    height: auto;
-  }
 
-  .carousel-image {
-    width: 100%;
-    height: auto;
-  }
-}
 
 .logoImage {
-  margin-right: 35px; /* Ajusta según tus necesidades */
+  margin-right: 50px; /* Ajusta según tus necesidades */
 }
 
 .carusel {
-  margin-left: 35px; /* Ajusta según tus necesidades */
+  margin-left: 50px; /* Ajusta según tus necesidades */
 }
