@@ -17,6 +17,12 @@ import { FaEnvelope, FaPhone, FaWhatsapp } from "react-icons/fa";
 import debitoAutomaticoImage from "./debito.png";
 import pagaOnlineImage from "./pagaonline.png";
 import credencialDigitalImage from "./credencial.png";
+import contacto from "./contacto.jpg";
+import cartillamedica from "./cartillamedica.jpg";
+import autestudios from "./autestudios.webp";
+import medicacion from "./medicacion.png";
+import cirugias from "./cirugias.jpg";
+
 
 const Links = () => {
   const carouselImages = [
@@ -38,6 +44,7 @@ const Links = () => {
     {
       text: "REFERIME A TUS CONTACTOS",
       url: "https://wa.link/yd9kpz",
+      image: contacto,
     },
     {
       text: "CREDENCIAL DIGITAL",
@@ -48,6 +55,7 @@ const Links = () => {
     {
       text: "CARTILLA MEDICA",
       url: "https://laprepagaquenecesitas.com.ar/cartilla/",
+      image: cartillamedica,
     },
     { text: "PAGA ONLINE",
      url: "https://geamovil.autogestion.io/",
@@ -56,14 +64,18 @@ const Links = () => {
     {
       text: "AUTORIZACIONES ESTUDIOS O PRACTICAS",
       url: "https://docs.google.com/forms/d/e/1FAIpQLScICd1v-xryE3CSsUYmRwUmv0gzOsB2PDWa_wwNAeWXZX0J_g/viewform",
+      image: autestudios,
     },
     {
       text: "AUTORIZACION MEDICACION",
       url: "https://docs.google.com/forms/d/e/1FAIpQLSftIRdL2qyY7c6wBv7eEqlm94xANjh8t1mUfSMaZzwmOOPldg/viewform?usp=send_form",
+      image: medicacion,
+    
     },
     {
       text: "AUTORIZACIONES CIRUGIAS",
       url: "https://docs.google.com/forms/d/e/1FAIpQLSfApriZ-htM1CSl9DW_CF7rjc-9cbK9tv5J3UBz7BRPQMmCeQ/viewform",
+      image: cirugias,
     },
   ];
 
