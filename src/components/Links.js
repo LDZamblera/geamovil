@@ -114,7 +114,7 @@ const Links = () => {
           src={logoImage}
           className="logoImage"
           alt="Logo de la web"
-          style={{ width: "150px", height: "auto", margin: "20px", borderRadius: "5px"}}
+          style={{ width: "120px", height: "auto", margin: "20px", borderRadius: "5px"}}
         />
         <h1>GEA cobertura de salud</h1>
         <div className="links-container">
