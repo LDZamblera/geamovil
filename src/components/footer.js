@@ -17,7 +17,7 @@ const footerStyle = {
   padding: '0',
   position: 'relative',
   bottom: 0,
-  border: '4px solid white',
+  border: '1px solid white',
   width: '105%',
   marginTop: '5rem',
   fontSize: '20px',
