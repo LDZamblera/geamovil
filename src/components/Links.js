@@ -19,9 +19,9 @@ import pagaOnlineImage from "./pagaonline.png";
 import credencialDigitalImage from "./credencial.png";
 import contacto from "./contacto.jpg";
 import cartillamedica from "./cartillamedica.jpg";
-import autestudios from "./autestudios.webp";
+import autestudios from "./estudios2.jpg";
 import medicacion from "./medicacion.png";
-import cirugias from "./cirugias.jpg";
+import cirugias from "./cirugia2.jpg";
 
 
 const Links = () => {
