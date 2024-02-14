@@ -3,7 +3,7 @@ body {
     background: linear-gradient(to bottom, #085380, #FFFFFF);
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: #FFFFFF;
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Adjust values as needed */
