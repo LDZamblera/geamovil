@@ -18,7 +18,7 @@ h1, h2 {
     margin: 0 auto;
     max-width: 800px;
     height: auto;
-    border-radius: 5px solid;
+    border-radius: 6px solid;
     padding: 10px;
 }
 
@@ -36,7 +36,7 @@ h1, h2 {
     text-align: center;
     text-decoration: none;
     transition: transform 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
-    height: 75px;
+    height: 80px;
     border-radius: 15px;
 }
 
@@ -44,7 +44,7 @@ h1, h2 {
 .link-item:hover {
     transform: translateY(-5px);
     box-shadow: 0 5px 8px rgba(255, 255, 255, 0.2);
-    border-radius: 10px solid;
+    border-radius: 20px solid;
 }
 
 .link-title {
@@ -59,8 +59,8 @@ h1, h2 {
 
 .logoImage{
     width: 100%;
-    border: 2px solid white;
-    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    border: 2.5px solid white;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.747);
     padding: 5px;
     height: auto;
     transition: transform 0.3s ease-in-out, border 0.3s ease-in-out, opacity 0.3s ease-in-out, filter 0.3s ease-in-out;
@@ -70,8 +70,8 @@ h1, h2 {
     transform: scale(1.1);
     border: #FFFFFF 2px solid;
     /* Cambia la opacidad al hacer hover */
-    filter: saturate(110%);
-    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    filter: saturate(115%);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.993);
 }
 
 /* Tu archivo de estilos CSS */
@@ -107,7 +107,7 @@ h1, h2 {
   align-items: center;
   padding: 40px;
   transition: transform 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
-  fontWeight: 'bold',
+  fontWeight: 'bold';
 }
 
 .atencion-cliente-container:hover {
