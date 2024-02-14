@@ -27,3 +27,4 @@ const footerStyle = {
   
 
 export default Footer;
+

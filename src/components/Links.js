@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import { Route, Routes } from "react-router-dom";
 import LinkItem from "./LinkItem";
-import logoImage from "./gealogo2.jpg";
+import logoImage from "./logo.jpeg";
 import AtencionCliente from "./AtencionCliente"; // Debes asegurarte de tener solo una importación
 import carouselImage2 from "./WhatsApp Image 2024-02-10 at 19.38.41.jpeg";
 import carouselImage3 from "./WhatsApp Image 2024-02-10 at 19.38.37.jpeg";
@@ -14,6 +14,9 @@ import carouselImage7 from "./imagengea3.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaEnvelope, FaPhone, FaWhatsapp } from "react-icons/fa";
+import debitoAutomaticoImage from "./debito.png";
+import pagaOnlineImage from "./pagaonline.png";
+import credencialDigitalImage from "./credencial.png";
 
 const Links = () => {
   const carouselImages = [
@@ -30,6 +33,7 @@ const Links = () => {
     {
       text: "Débito Automático – GEA MOVIL",
       url: "https://laprepagaquenecesitas.com.ar/debito-automatico/",
+      image: debitoAutomaticoImage,
     },
     {
       text: "REFERIME A TUS CONTACTOS",
@@ -38,12 +42,17 @@ const Links = () => {
     {
       text: "CREDENCIAL DIGITAL",
       url: "http://www.prestacionesgea.com.ar/AUTOGESTION-PREPAGA/",
+      image: credencialDigitalImage,
+
     },
     {
       text: "CARTILLA MEDICA",
       url: "https://laprepagaquenecesitas.com.ar/cartilla/",
     },
-    { text: "PAGA ONLINE", url: "https://geamovil.autogestion.io/" },
+    { text: "PAGA ONLINE",
+     url: "https://geamovil.autogestion.io/",
+     image: pagaOnlineImage, },
+    
     {
       text: "AUTORIZACIONES ESTUDIOS O PRACTICAS",
       url: "https://docs.google.com/forms/d/e/1FAIpQLScICd1v-xryE3CSsUYmRwUmv0gzOsB2PDWa_wwNAeWXZX0J_g/viewform",
