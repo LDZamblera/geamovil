@@ -106,7 +106,7 @@ const Links = () => {
   };
 
   return (
-    <div style={{ position: "relative", padding: "40px"  }}>
+    <div className="tu-carousel-container" style={{ position: "relative", padding: "40px"  }}>
       <div
         style={{
           position: "absolute",
@@ -118,12 +118,13 @@ const Links = () => {
       >
         <Slider {...carouselSettings} className="carusel">
           {carouselImages.map((image, index) => (
-            <div key={index}>
+            <div  key={index}>
               <img
                 src={image}
                 className="carousel-image"
                 alt={`Carousel`}
-                style={{ width: "100%" }}
+                style={{ width: "100%",  }}
+                
               />
             </div>
           ))}
