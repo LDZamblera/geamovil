@@ -126,7 +126,7 @@ const Links = () => {
           style={{ width: "120px", height: "auto", margin: "20px", borderRadius: "5px"}}
         />
         <h1>GEA cobertura de salud</h1>
-        <br/>
+       
         <h3>Paula Ferreyra Asesora comercial</h3>
         <div className="links-container">
           {links.map((link, index) => (
