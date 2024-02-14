@@ -22,7 +22,7 @@ const footerStyle = {
   marginTop: '5rem',
   fontSize: '20px',
   fontWeight: 'bold',
-  textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)', // Agrega sombreado
+  textShadow: '2px 2px 4px rgba(0, 0, 0, 0.6)', // Agrega sombreado
 };
   
 
