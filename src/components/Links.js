@@ -19,7 +19,7 @@ import pagaOnlineImage from "./pagaonline.png";
 import credencialDigitalImage from "./credencial.png";
 import contacto from "./contacto.jpg";
 import cartillamedica from "./cartillamedica.jpg";
-import autestudios from "./estudios2.jpg";
+import autestudios from "./autestudios.webp";
 import medicacion from "./medicacion.png";
 import cirugias from "./cirugia2.jpg";
 
