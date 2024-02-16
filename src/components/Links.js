@@ -117,15 +117,14 @@ const Links = () => {
           marginBottom: "10px",
         }}
       >
-        <Slider {...carouselSettings} className="carusel">
+        <Slider {...carouselSettings} className="carusel" dots={false}>
           {carouselImages.map((image, index) => (
             <div  key={index}>
               <img
                 src={image}
                 className="carousel-image"
                 alt={`Carousel`}
-                style={{ width: "100%",  }}
-                
+                style={{ width: "100%"  }}                
               />
             </div>
           ))}
@@ -140,7 +139,6 @@ const Links = () => {
           style={{ width: "120px", height: "auto", margin: "20px", borderRadius: "5px"}}
         />
         <h1>GEA cobertura de salud</h1>
-       
         <h3>Paula Ferreyra Asesora comercial</h3>
         <div className="links-container">
           {links.map((link, index) => (
