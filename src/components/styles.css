@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background: linear-gradient(to bottom, #085380, #FFFFFF);
+    justify-content: center;
 }
 
 h1, h2, h3 {
@@ -28,15 +29,15 @@ h1, h2, h3 {
     border-radius: 5px;
     box-shadow: 0 2px 10px rgba(255, 255, 255, 0.5);
     color: #fff;
-    width: 105%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     flex-basis: calc(10% - 5px); /* Reducir el ancho ajustando el porcentaje */
     margin: 10px;
-    padding: 8px; /* Ajustar el padding para mantener el contenido legible */
+    padding: 5px; /* Ajustar el padding para mantener el contenido legible */
     text-align: center;
     text-decoration: none;
-    transition: transform 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
+    transition: transform 0.35s ease-in-out, box-shadow 0.35s ease-in-out;
     height: 100px;
     border-radius: 15px;
 }
@@ -89,19 +90,27 @@ h1, h2, h3 {
   .carousel-image:hover {
     box-shadow: 0 10px 16px rgb(252, 252, 252); /* Cambia el sombreado al hacer hover */
   }
+
+
+
+
+
+
+
+
   
 
 /* Estilos para AtencionCliente.js */
 
 .atencion-cliente-container {
   background-color: #085380;
-  border-radius: 20px;
+  border-radius: 25px;
   box-shadow: 0 10px 20px rgba(255, 255, 255, 0.836), 0 6px 6px rgba(255, 253, 253, 0.822);
   color: #fff;
   padding: 20px;
   text-align: center;
   margin: 40px auto 0;
-  width: 90%;
+  width: 95%;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -116,7 +125,7 @@ h1, h2, h3 {
 .atencion-cliente-container:hover {
   transform: translateY(-5px);
   box-shadow: 0 5px 8px rgba(255, 255, 255, 0.2);
-  box-shadow: 0 10px 15px rgb(250, 247, 247), 0 0 10px rgba(255, 254, 254, 0.5);
+  box-shadow: 0 10px 15px rgb(250, 247, 247), 0 0 15px rgba(255, 254, 254, 0.5);
 }
 
 .atencion-cliente-container a {
@@ -167,3 +176,51 @@ h1, h2, h3 {
   display: none !important;
 }
 
+/* atencion al cliente
+
+/* CSS general para la sección de Atención al Cliente */
+.atencion-cliente-container {
+  font-size: 16px; /* Tamaño por defecto */
+  padding: 20px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.contact-icon {
+  margin-right: 10px;
+  font-size: 1.5rem; /* Tamaño por defecto de los iconos */
+}
+
+/* Estilo específico para tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .atencion-cliente-container {
+    font-size: 14px; /* Tamaño de fuente más pequeño */
+  }
+  
+  .contact-icon {
+    font-size: 1.2rem; /* Tamaño más pequeño de los iconos */
+  }
+}
+
+/* Estilo específico para PC */
+@media (min-width: 1025px) {
+  .atencion-cliente-container {
+    font-size: 18px; /* Tamaño de fuente aún más pequeño */
+    width: 40%;
+    justify-content: center;
+  }
+  
+  .contact-icon {
+    font-size: 1rem; /* Tamaño más pequeño de los iconos */
+  }
+}
