@@ -2,6 +2,7 @@ import React from 'react';
 import './components/styles.css';
 import Links from './components/Links';
 import Footer from './components/footer';
+import TypingText from './components/TypingText';
 import AtencionCliente from './components/AtencionCliente';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -23,6 +24,7 @@ const App = () => {
   return (
     <Router>
       <div>
+      <TypingText />
         <Links links={links} />
         <Routes>
           <Route path="/atencion-al-cliente" element={<AtencionCliente />} />
