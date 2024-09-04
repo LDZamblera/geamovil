@@ -4,7 +4,7 @@ const TypingText = () => {
   const [text, setText] = useState('');
   const [index, setIndex] = useState(0);
   const message = 'GEA LA PREPAGA QUE NECESITAS';
-  const speed = 160; // Velocidad de escritura en milisegundos
+  const speed = 175; // Velocidad de escritura en milisegundos
 
   useEffect(() => {
     if (index < message.length) {
