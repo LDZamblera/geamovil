@@ -32,7 +32,7 @@ const footerStyle = {
   marginTop: '5rem',
   fontSize: '20px',
   fontWeight: 'bold',
-  textShadow: '2px 2px 4px rgba(0, 0, 0, 0.6)',
+  textShadow: '3px 3px 5px rgba(0, 0, 0, 0.6)',
 };
 
 const textStyle = {
@@ -48,8 +48,10 @@ const whatsappButtonStyle = {
   borderRadius: '20px',
   textDecoration: 'none',
   fontSize: '18px',
-  transition: 'background-color 0.5s ease',
+  transition: 'background-color 0.6s ease, transform 0.3s ease', // Añadir transición de color y transformación
 };
+
+
 
 const iconStyle = {
   marginRight: '10px',

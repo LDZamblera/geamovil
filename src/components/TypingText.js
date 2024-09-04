@@ -34,8 +34,8 @@ const typingStyle = {
   color: 'white',
   fontWeight: 'bold',
   textAlign: 'center',
-  padding: '20px',
-  textShadow: '4px 4px 6px rgba(0, 0, 0, 0.7)',
+  padding: '18px',
+  textShadow: '5px 5px 7px rgba(0, 0, 0, 0.8)',
 };
 
 export default TypingText;
