@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: linear-gradient(to bottom, #085380, #FFFFFF);
+    background: linear-gradient(to bottom, #054169, #90c3ce);
     justify-content: center;
 }
 
@@ -52,6 +52,7 @@ h1, h2, h3 {
 .link-title {
     font-size: 1.5rem;
     margin-bottom: 10px;
+   
 }
 
 .link-description {

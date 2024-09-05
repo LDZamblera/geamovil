@@ -21,18 +21,17 @@ const footerStyle = {
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
-  background: 'linear-gradient(to right, #085380, #FFFFFF, #FFA500)',
-  color: '#085380',
+  background: 'whitewhitesmoke',
+  color: 'black',
   textAlign: 'center',
   padding: '10px',
   position: 'relative',
   bottom: 0,
-  border: '1px solid white',
   width: '100%',
   marginTop: '5rem',
   fontSize: '20px',
   fontWeight: 'bold',
-  textShadow: '3px 3px 5px rgba(0, 0, 0, 0.6)',
+  textShadow: '4px 4px 6px rgba(0, 0, 0, 0.6)',
 };
 
 const textStyle = {
