@@ -55,7 +55,7 @@ const Links = () => {
     },
     {
       text: "CARTILLA MEDICA",
-      url: "https://laprepagaquenecesitas.com.ar/planes-y-cartilla/",
+      url: "https://geamovil.com/cartilla/",
       image: cartillamedica,
     },
     { text: "PAGA ONLINE",
