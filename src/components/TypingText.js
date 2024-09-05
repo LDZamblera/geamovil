@@ -34,7 +34,7 @@ const typingStyle = {
   color: 'white',
   fontWeight: 'bold',
   textAlign: 'center',
-  padding: '18px',
+  padding: '14px',
   textShadow: '6px 6px 8px rgba(0, 0, 0, 0.8)',
 };
 
