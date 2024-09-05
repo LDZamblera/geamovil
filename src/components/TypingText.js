@@ -4,7 +4,7 @@ const TypingText = () => {
   const [text, setText] = useState('');
   const [index, setIndex] = useState(0);
   const message = 'GEA LA PREPAGA QUE NECESITAS';
-  const speed = 175; // Velocidad de escritura en milisegundos
+  const speed = 170; // Velocidad de escritura en milisegundos
 
   useEffect(() => {
     if (index < message.length) {
@@ -17,7 +17,7 @@ const TypingText = () => {
       const resetTimeout = setTimeout(() => {
         setText(''); // Reinicia el texto después de una pausa
         setIndex(0);
-      }, 2000); // Tiempo de pausa antes de reiniciar
+      }, 1750); // Tiempo de pausa antes de reiniciar
       return () => clearTimeout(resetTimeout);
     }
   }, [index, message, speed]);
@@ -35,7 +35,7 @@ const typingStyle = {
   fontWeight: 'bold',
   textAlign: 'center',
   padding: '18px',
-  textShadow: '5px 5px 7px rgba(0, 0, 0, 0.8)',
+  textShadow: '6px 6px 8px rgba(0, 0, 0, 0.8)',
 };
 
 export default TypingText;
