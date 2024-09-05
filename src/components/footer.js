@@ -21,7 +21,7 @@ const footerStyle = {
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
-  background: 'whitewhitesmoke',
+  background: 'white',
   color: 'black',
   textAlign: 'center',
   padding: '10px',
